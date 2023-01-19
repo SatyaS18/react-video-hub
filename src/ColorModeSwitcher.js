@@ -16,6 +16,8 @@ export const ColorModeSwitcher = props => {
       pos={'fixed'}
       top={'4'}
       right={'4'}
+      // zIndex="1"
+      // uncomment above line to show color switcher above the carousel
       // marginLeft="2"
       onClick={toggleColorMode}
       icon={<SwitchIcon />}

@@ -29,6 +29,8 @@ const Header = () => {
         h={10}
         borderRadius={'full'}
         onClick={onOpen}
+        // zIndex={'1'}
+        // uncomment above line to show the meny button above the carousel
       >
         <BiMenuAltLeft size={'20'} />
       </Button>
