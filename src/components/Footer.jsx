@@ -21,7 +21,7 @@ const Footer = () => {
             textTransform="uppercase"
             textAlign={['center', 'left']}
           >
-            Subscripbe to get updates
+            Subscribe to get updates
           </Heading>
           <HStack borderBottom={'2px solid white'} py="2">
             <Input
@@ -30,6 +30,8 @@ const Footer = () => {
               borderRadius="none"
               outline={'none'}
               focusBorderColor="none"
+              Color={'white'}
+              opacity="1"
             />
             <Button
               p={'0'}
